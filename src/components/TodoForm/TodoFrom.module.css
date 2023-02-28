@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.label {
+display: flex;
+margin-top: 15px;
+flex-direction: column;
+gap: 10px;
+
+}
+
+.button {
+    height: fit-content;
+    width: 70px;;
+}
+
+.title_error,
+.description_error {
+    position: absolute;
+    color: red;
+    top: 60px;
+}

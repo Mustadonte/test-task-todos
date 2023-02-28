@@ -1,0 +1,44 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1200;
+}
+
+.content {
+  width: 70%;
+  height: 400px;
+  padding: 25px;
+  background-color: #fff;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.desc {
+  display: block;
+  font-weight: bold;
+}
+
+.text {
+  font-weight: normal;
+}
+
+.checkbox {
+  margin-left: 5px;
+}
+
+.button {
+  display: block;
+  position: relative;
+  margin-top: 50px;
+  cursor: pointer;
+}
