@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { TodoForm } from './TodoForm/TodoForm';
-import { TodosList } from './TodoList/TodosList';
+import { TodosList } from './TodoList/TodoList';
 import { Modal } from './Modal/Modal';
 export const App = () => {
   const [todoList, setTodoList] = useState([]);
